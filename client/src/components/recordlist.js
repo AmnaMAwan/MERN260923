@@ -55,7 +55,7 @@ async function deleteRecord(id) {
  
  // This method will delete a record
  async function deleteRecord(id) {
-   await fetch(`http://localhost:5050/record/${id}`, {
+   await fetch(`http://143.198.105.14:5050/record/${id}`, {
      method: "DELETE"
    });
  
